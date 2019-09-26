@@ -1,0 +1,193 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+body {
+  background-image: url('carry.gif');
+position: relative;
+background-size: cover;
+animation: bounce 1s infinite alternate;
+
+
+background-position:center;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+ div h4{
+  text-align: center;
+  color: white;
+  font-family: ExtraOrnamentalNo2;
+  font-size: 32px;
+  text-decoration:  overline;
+}
+.main{
+  width: 60%;
+ height: 500px;
+ top:200px;
+ left: 20vw;
+ display: block;
+ position: relative;
+  background: rgba(176,224,230 0.4);
+ border-radius: 15%;
+
+}
+h2{
+  font-family: font1;
+  color: white;
+  text-align: center;
+  font-size: 42px;
+
+}
+.countdownContainer{
+
+  position: absolute;
+  top: 75px;
+  left: 580px;
+  text-align: center;
+  background:rgba(255,192,203,0.2);
+  border:1px solid #999;
+  padding: 10px;
+  box-shadow: 0 0 5px 3px #ccc;
+
+}
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px; 
+  font-size: 22px;
+  color: white;
+  font-family: ExtraOrnamentalNo2;
+  
+}
+
+@font-face {
+  font-family:font1 ;
+  src: url(font1.ttf);
+}
+@font-face {
+  font-family:ExtraOrnamentalNo2 ;
+  src: url(Merienda-Regular.ttf);
+}
+.info{
+  font-size: 40px;
+}
+td{
+  color: white;
+}
+.link{
+  text-align: center;
+}
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity:1 ;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 0}
+
+
+
+
+  
+  .heading{
+    left: 3%;
+  }
+  .countdownContainer{
+    top: 15%;
+    left: 38%;
+  }
+  .count{
+    text-align: center;
+  }
+
+
+/*for responsive*/
+
+@media screen and (max-width:800px) {
+  .main{
+    left: 5%;
+    top: 250px;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  body{
+     background-image: url('carry.gif');
+    background-size: cover;
+
+  }
+  .countdownContainer{
+    
+  top: 32%;
+  text-align: center;
+  display: block;
+}
+
+}
+@media screen and (max-width:600px){
+  .countdownContainer{
+    left: 20%;
+    top: 32%;
+    text-align: center;
+    display: block;
+  }
+}
+
+/* @media screen and (max-width:415px) {
+  .main{
+    left: 5%;
+    top: 250px;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  body{
+     background-image: url('carry.gif');
+    background-size: cover;
+
+  }
+  .countdownContainer{
+  left: 35vw;
+  top: 32%;
+  display: block;
+}}
+@media screen and (max-width:825px) {
+  .main{
+    left: 5%;
+    top: 250px;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  body{
+     background-image: url('carry.gif');
+    background-size: cover;
+
+  }
+  .countdownContainer{
+  left: 35vw;
+  top: 35%;
+  display: block;
+  
+}} */

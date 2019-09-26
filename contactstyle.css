@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+/* GLobal Styles */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+  
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background-image:url('back.gif');
+	  background-size:cover;
+	   background-attachment: fixed;
+      background-repeat:no-repeat;
+      color: white;
+  }
+.logo{
+ width: 350px;
+ padding-left: 100px;
+ padding-top: 70px;
+}
+h2{
+    padding-top: 0px;
+    top: 10px;
+    padding-left: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.contact{
+    width: 100%;
+    height: 85vh;
+}
+.con{
+    width: 100%;
+    height: 80vh;
+}
+.front{
+    margin-left: 80px;
+    position: absolute;
+    height: 70px;
+    top: 300px;
+    padding: 20px;
+    background-color:  rgba(211, 84, 0, 0.5)
+    
+}
+div h4 {
+    color: aliceblue;
+}
+.middle{
+    padding-left: 450px;
+}
+
+.main{
+    margin-left: 50px;
+}
+p{
+    left: 40px;
+    border: 2px black;
+}
+.deve{
+    background-color: rgba(108, 122, 137, 1);
+    color: white;
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+@media(max-width:899px){
+    .middle{
+        padding-left: 30px;
+    }
+    iframe{
+        width: 300px;
+    }
+    .logo{
+        padding-left: 30px
+    }
+  
+  }

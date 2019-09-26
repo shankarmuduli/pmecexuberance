@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+  
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background-image: url('back.gif');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  .content{
+      color: white;
+  }
+
+
+         .img{
+
+ 
+width: 401px;
+ background:rgba(255,192,203,0.2);
+ border:1px solid #999;
+ padding: 10px;
+ margin-left: 5vw;
+ display: inline-block;
+ box-shadow: 0 0 5px 3px #ccc;
+ margin-bottom: 18px;
+
+ }
+ h1{
+     font-size: 43px;
+     font-family: 'Acme', sans-serif;
+ }
+ h2{
+    font-family: 'Indie Flower', cursive;
+    padding-top: 10px;
+     text-align: center;
+ }
+.photo{
+    
+    width :380px;
+    height: 350px;
+}
+h4{
+    font-family: 'Righteous', cursive;
+}
+footer{
+  background: #2B2D42;
+  color: grey;
+  height: 300px;;
+  width: 100%;
+}
+.content-wrap{
+    margin: 0 auto;
+    max-width: 950px;
+    width: 100%;
+    overflow:auto;
+  
+  }
+  nav{
+    text-align: center;
+    background:	rgba(0,0,0,0.3);
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+  nav a{
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+	color:orange;
+    text-transform:uppercase;
+  
+  }
+  /* Dropdown Button */
+.dropbtn {
+   background:	rgba(0,0,0,0.3);
+    color: orange;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background:	rgba(0,0,0,0.3);
+	
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background:	rgba(0,0,0,0.3);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	color:orange;
+	background:	rgba(0,0,0,0.3);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: orange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+.tag{
+    display: block;
+    float: left;
+    font-family: 'Orbitron', sans-serif;
+}
+  
+  @media screen and (max-width:420px){
+    footer{
+        width:430px;
+    }
+  }
+  
+@media screen and (max-width: 899px){
+    .tag{
+        display: block;
+        float: none;
+        
+      }
+
+
+
+
+
+
+}
